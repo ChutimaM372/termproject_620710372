@@ -20,7 +20,7 @@ class _VideoScreenState extends State<VideoScreen> {
     super.initState();
     _controller = YoutubePlayerController(
       initialVideoId: widget.id,
-      flags: const YoutubePlayerFlags(
+      flags: YoutubePlayerFlags(
         mute: false,
         autoPlay: true,
       ),
@@ -35,6 +35,7 @@ class _VideoScreenState extends State<VideoScreen> {
         controller: _controller!,
         showVideoProgressIndicator: true,
         onReady: () {
+          print('Player is ready.');
         },
       ),
     );

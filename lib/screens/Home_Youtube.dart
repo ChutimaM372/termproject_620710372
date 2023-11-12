@@ -133,8 +133,8 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Row(
           children: <Widget>[
             Image(
-              height: 150,
-              width: 150,
+              height: 200,
+              width: 200,
               image: NetworkImage(video.thumbnailUrl,scale: 0.1),
               fit: BoxFit.cover,
             ),

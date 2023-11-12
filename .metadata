@@ -5,6 +5,7 @@
 
 version:
   revision: f468f3366c26a5092eb964a230ce7892fda8f2f8
+  //revision: 1aedbb1835bd6eb44550293d57d4d124f19901f0
   channel: stable
 
 project_type: app
