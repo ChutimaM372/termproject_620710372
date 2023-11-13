@@ -73,7 +73,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       overflow: TextOverflow.ellipsis,
                     ),
                     Text(
-                      '${_channel!.subscriberCount} subscribers',
+                      '${_channel!.subscriberCount} subscribers', //โชว์ผู้ติดตาม
                       style: TextStyle(
                         color: Colors.grey[600],
                         fontSize: 16.0,
@@ -81,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       overflow: TextOverflow.ellipsis,
                     ),
-                    GestureDetector(
+                    GestureDetector( //กดที่ more detail แล้วไปที่riize members
                       onTap: () {
                         Navigator.of(context).push(
                             MaterialPageRoute(builder: (context) => RIIZEmembers())

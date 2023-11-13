@@ -46,7 +46,7 @@ class _RIIZEmembersState extends State<RIIZEmembers> {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               IconButton(
-                icon: Icon(Icons.arrow_back),//ไอคอนที่กดเลื่อนรูป
+                icon: Icon(Icons.arrow_back),//ไอคอนที่กดเลื่อนรูปกลับ
                 onPressed: () {
                   if (_pageController.page! > 0) {
                     _pageController.previousPage(
@@ -57,7 +57,7 @@ class _RIIZEmembersState extends State<RIIZEmembers> {
                 },
               ),
               IconButton(
-                icon: Icon(Icons.arrow_forward),
+                icon: Icon(Icons.arrow_forward),//ไอคอนที่กดเลื่อนรูปไปด้านหน้า
                 onPressed: () {
                   if (_pageController.page! < imagePaths.length - 1) {
                     _pageController.nextPage(

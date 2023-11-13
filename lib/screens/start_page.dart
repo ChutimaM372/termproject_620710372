@@ -45,7 +45,7 @@ class start_page extends StatelessWidget {
                     borderRadius: BorderRadius.circular(20),
                   ),
                   child: Text(
-                    'START',
+                    'START',//ปุ่มกด
                     style: GoogleFonts.sairaStencilOne(
                       color: const Color(0xF021303B),
                       fontSize: 17.5,
